@@ -5,6 +5,7 @@
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
-  // "prettier.requireConfig": true,
+  },
+  "prettier.requireConfig": false,
+  "hediet.vscode-drawio.theme": "Kennedy"
 }

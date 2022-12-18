@@ -5,6 +5,8 @@
     "bradlc.vscode-tailwindcss",
     "prisma.prisma",
     "humao.rest-client",
-    "cweijan.vscode-database-client2"
+    "cweijan.vscode-database-client2",
+    "arjun.swagger-viewer",
+    "hediet.vscode-drawio"
   ]
 }
