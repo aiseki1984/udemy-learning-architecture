@@ -1,10 +1,29 @@
-GET http://localhost:3000/api/hello
+@baseurl = http://localhost:3000
+###
+GET {{baseurl}}/api/hello
 
 ###
-GET http://localhost:3000/api/error
+GET {{baseurl}}/api/error
 
 ###
-POST http://localhost:3000/api/games
+GET {{baseurl}}/api/games/latest/turns/0
+
+###
+POST {{baseurl}}/api/games
+
+###
+
+POST {{baseurl}}/api/games/latest/turns
+content-type: application/json
+
+{
+    "turnCount": 1,
+    "move": {
+      "disc": 1,
+      "x": 3,
+      "y": 3
+    }
+}
 
 ###
 
